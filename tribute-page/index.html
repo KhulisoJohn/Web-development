@@ -1,0 +1,217 @@
+<!--page designed and developed by khulysojohn in respective of freecodecamp responsive web design certification projects-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta tags-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--external links-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Tribute page</title>
+</head>
+<body > 
+    <main id="main">
+    <!--desktop and tablet nav-bar-->
+        <nav id="nav-bar">
+            <a href="index.html" class="nav-link"><i class="fa fa-home"></i></a>
+            <a href="#about-info" class="nav-link"><i class="fa fa-user"></i></a>
+            <a href="#career" class="nav-link"><i class="fa fa-trophy"></i></a>
+            <a href="#gallery" class="nav-link"><i class="fa fa-image"></i></a>
+        </nav>
+
+    <!-- Navbar on small screens (Hidden on desktop and tablet screens)-->
+        <div class="navbar">
+        <nav>
+            <span class="nav-icon"  onclick="open_nav()">&#9776;</span>
+            <ul id="menu">
+                <li><a class="close-nav" onclick="close_nav()">&times;</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about-info">ABOUT</a></li>
+                <li><a href="#career">ACHIEVMENTS</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--home page-->
+    <div id="home">
+    <!--title of the page-->
+        <h1 id="title">Shericka Jackson</h1>
+        <div id="img-div">
+            <img id="image" src="https://khulysodev.sirv.com/tribute-page/img%206.jpg">
+            <div id="img-caption">Olympic 100 metres bronze medallist <b>shericka Jackson</b></p>
+        </div>
+
+        <!--About page-->
+        <div id="about-info">
+            <h2 class="about">About Shericka Jackson</h2>
+            <hr class="hr1">
+            <img class="info-img" src="https://khulysodev.sirv.com/tribute-page/img5.jpeg"/>
+            <br>
+            <p id="tribute-info">
+                Shericka Jackson (born 16 July 1994) is a Jamaican sprinter specialising in the 
+                400 metres and,since 2021,in shorter distances. In her longtime signature event of 400 m,
+                she won bronze medals at the 2016 Olympics, 2015 World Championships and 2019 World
+                Championships.At the same competitions, Jackson added medals in the 4 x 400 m relays, 
+                taking a silver, a gold and a bronze, respectively. Read more on Wikipedia
+                Since 2007, the English Wikipedia page of Shericka Jackson has received more than 163,469 page views.
+                Her biography is available in 17 different languages on Wikipedia (up from 16 in 2019).
+                Shericka Jackson is the 2,874th most popular athlete (down from 2,139th in 2019),
+                the 135th most popular biography from Jamaica and the 52nd most popular Jamaican Athlete.
+                </p>
+
+                <img class="info-img2" src="https://khulysodev.sirv.com/tribute-page/img6.jpeg">
+                <p class="bio2">
+                    Among athletes, Shericka Jackson ranks 2,874 out of 3,055. Before her are Dina Asher-Smith,
+                    Jake Kaminski, Wang Hao, Leevan Sands, Tiffany Porter, and Dejen Gebremeskel.
+                    After her are Marnie McBean, Dawn Harper-Nelson, Iain Percy, Eunice Sum,
+                    Sukanya Srisurat, and Michał Haratyk.Among people born in Jamaica, Shericka 
+                    Jackson ranks 135 out of 147. Before her are Shericka Williams (1985), Duwayne Kerr (1987),
+                    Hansle Parchment (1990), Andre Blake (1990), Cydonie Mothersille (1978),
+                    and Christine Day (1986). After her are Kemar Lawrence (1992), 
+                    Danielle Williams (1992), Rosemarie Whyte (1986), Darren Mattocks (1990), 
+                    Rolando Aarons (1995)and Romario Williams (1994).
+                     Read <a href="#" id="tribute-link" target="_blank">more</a>
+                </p>
+            </div>
+
+            <!--all career achievment statistics-->
+            <div id="career">
+                <h2 class="career-header">Career Achievment</h2><hr class="hr2">
+                <p class="bio3">below are the Olympics career achievment statistics of shericka jackson</p>
+                <!--olympics career achievment statistics-->
+                <h3 class="career-info1">Olympics honours for Shericka jackson</h3>
+                
+                <table>
+                    <tr>
+                        <th>Honour</th>
+                        <th>Event</th>
+                        <th>Place</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>4 &times; 100 metres relay</td>
+                        <td>Tokyo(Japan)</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4 &times; 400 metres relay</td>
+                        <td>Rio De Jenaro(Brazil)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4 &times; 400 metres relay</td>
+                        <td>Tokyo(Japan)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>100 metres</td>
+                        <td>Tokyo(Japan)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>400 metres</td>
+                        <td>Rio De Jenaro(Brazil)</td>
+                    </tr>
+                </table>
+
+                <!--diamond league and IAAF world career statistics-->
+                <h3 class="career-info2">Diamond league and IAAF world relays honours for Shericka jackson</h3>
+                <table>
+                    <tr>
+                        <th>Honour</th>
+                        <th>Event</th>
+                        <th>Place</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200 metres</td>
+                        <td>Stockholm (Sweden)</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>400 metres</td>
+                        <td>London (England)</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>200 metres</td>
+                        <td>Paris(France)</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>4 &times; 200 metres</td>
+                        <td>Nassau(Bahamas)</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>4 &times; 400 metres</td>
+                        <td>Nassau(Bahamas)</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>4 &times; 200 metres</td>
+                        <td>Yokohama(Japan)</td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <!--gallary section-->
+            <div id="gallery">
+                <h2 class="gallary-info">Videos and Pictures</h2><hr class="hr3">
+
+                <!--images articles-->
+                <div class="images">
+                    <h3 class="galary-capt">Images</h3>
+                    <img class="gallary-img" src="https://khulysodev.sirv.com/tribute-page/img2.jpg">
+                    <img class="gallary-img2" src="https://khulysodev.sirv.com/tribute-page/img3.jpeg">
+                    <img class="gallary-img3" src="https://khulysodev.sirv.com/tribute-page/img4.jpg">
+                    <img class="gallary-img4" src="https://khulysodev.sirv.com/tribute-page/img6.jpeg">
+                </div>
+
+                <!--videos article-->
+                <div class="videos">
+                    <h3 class="video-capt">Videos</h3>
+                    <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/nwowxPuzLGg?start=41"  
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;   picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/CUGI6qYjeqY?start=5" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+
+                </div>
+             </div>
+            <footer>
+                 <code>&copy;2021 copyright: designed and developed by Khulysojohn</code>
+            </footer>
+    </div>
+    </main>
+
+    <script>
+        var Menu_open_close=document.getElementById("menu");
+Menu_open_close.style.maxHeight="0px"
+function open_nav(){
+    if(Menu_open_close.style.maxHeight=="0px"){
+        Menu_open_close.style.maxHeight="200px"
+    }
+}
+    function close_nav(){
+        if(Menu_open_close.style.maxHeight=="200px"){
+        Menu_open_close.style.maxHeight="0px"
+    }
+}
+
+    </script>
+</body>
+</html>
+      
+
+              

@@ -1,0 +1,379 @@
+#home{
+    margin-top: -10px;
+    overflow-x: hidden;
+    margin-left: 120px;
+    background-color: black;
+    padding: 15px;
+}
+#nav-bar{
+    margin: 0;
+    padding: 0;
+    width: 120px;
+    background-color:gray;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+#home::-webkit-scrollbar{
+    display: none;
+}
+.navbar{
+    display: none;
+}
+.nav-link .fa-home,.fa-image,.fa-trophy{
+    font-size: 70px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.nav-link .fa-user{
+   font-size: 70px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.nav-link .fa-trophy{
+   font-size: 70px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.nav-link .fa-image{
+  font-size: 70px;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+#title{
+    color: red;
+    font-size: 60px;
+    text-align: center;
+}
+#image{
+  max-width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#img-caption{
+    text-align: center;
+    color: white;
+}
+.about{
+    color: white;
+    margin-bottom: 60px;
+}
+.hr1{
+    width: 250px;
+    margin-top: -58px;
+    margin-left: 0px;
+}
+#about-info{
+    border: solid 1px white;
+    margin-top: 95px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+}
+.info-img{
+    width: 400px;
+    height: auto;
+    margin-top: 50px;
+
+}
+#tribute-info{
+    width: 500px;
+    margin-left: 580px;
+    margin-top: -290px;
+    color: white;
+}
+.bio2{
+    width:550px;
+    margin-top: -200px;
+    color: white;
+}
+.info-img2{
+    width: 500px;
+    margin-left: 580px;
+    margin-bottom: 15px;
+}
+.career-header{
+    color:white;
+}
+.career-info1{
+    color: white;
+}
+.career-info2{
+    color: white;
+}
+.bio3{
+    color: white;
+}
+.hr2{
+    width: 200px;
+    margin-left: 0px;
+    margin-top: -20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: gray;
+    color: white;
+  }
+  #gallery{
+      border: solid 1px white;
+      margin-top: 30px;
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+  .gallary-info{
+      color: white;
+  }
+  .galary-capt{
+      color: white;
+  }
+  .gallary-img{
+      width: 49%;
+  }
+  .gallary-img2{
+      width: 49%;
+  }
+  .gallary-img3{
+      width: 49%;
+  }
+  .gallary-img4{
+      width: 49%;
+      height: 377px;
+  }
+  .video-capt{
+      color: white;
+  }
+  .hr3{
+      width: 205px;
+      margin-left: 0px;
+      margin-top: -20px;
+  }
+  footer{
+      margin-top: 50px;
+  }
+  code{
+      color: white;
+  }
+  /* styling tablet view */
+  @media only screen and (max-width: 900px){
+      #nav-bar{
+          width: 100px;
+      }
+      #home{
+          margin-left: 100px;
+      }
+      #image{
+          width: 100%;
+      }
+      .about{
+        color: white;
+        margin-bottom: 60px;
+    }
+    .hr1{
+        width: 250px;
+        margin-top: -58px;
+        margin-left: 0px;
+    }
+    #about-info{
+        border: solid 1px white;
+        margin-top: 95px;
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 20px;
+    }
+    .info-img{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    
+    }
+    #tribute-bio{
+        width: 100%;
+        margin-top: 0px;
+        color: white;
+        margin-left: 0px;
+    }
+    .bio2{
+        width:100%;
+        margin-top:0px;
+        color: white;
+    }
+    .info-img2{
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+    #gallery{
+        border: solid 1px white;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .gallary-info{
+        color: white;
+    }
+    .galary-capt{
+        color: white;
+    }
+    .gallary-img{
+        width: 100%;
+    }
+    .gallary-img2{
+        width: 100%;
+    }
+    .gallary-img3{
+        width: 100%;
+    }
+    .gallary-img4{
+        width: 100%;
+        height: auto;
+    }
+  }
+  /*styling mobile view */
+  @media only screen and (max-width: 600px){
+
+      #home{
+          margin-left: 0px;
+      }
+      #nav-bar{
+        display: none;
+        
+    }
+    .navbar{
+        display: block;
+    }
+    .nav-icon{
+        position: fixed;
+        left: 10px;
+        font-size: 30px;
+        color: white;
+    }
+    .close-nav{
+        display: block;
+        font-size: 50px;
+        color: white;
+        float: right;
+        margin-top: -10px;
+    }
+    nav ul{
+        width: 40%;
+        background: darkslategray;
+        position:fixed ;
+        top: -20px;
+        left: 9px;
+        z-index: 2;
+        overflow: hidden;
+        transition: 1s;
+        text-align: left;
+    }
+    
+    nav ul li{
+        display: block ;
+        margin-bottom: 10px;
+        padding-top:10px ;
+        width:100%;
+        font-size:20px;
+    }
+    
+    nav ul li a{
+        color:white;
+        
+    }
+      #image{
+          width: 100%;
+      }
+      #title{
+          font-size: 30px;
+      }
+      #about-info{
+        border: solid 1px white;
+        margin-top: 50px;
+        margin-left:0px;
+        margin-right: 0px;
+        
+    } 
+    .about{
+        color: white;
+        margin-top: -10px;
+    }
+    .info-img{
+        width: 100%;
+        display: block;
+    
+    }
+    #tribute-info{
+        color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .bio2{
+        width: 100%;
+        color: white;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .info-img2{
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+
+    }
+    #gallery{
+        border: solid 1px white;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .gallary-info{
+        color: white;
+    }
+    .galary-capt{
+        color: white;
+    }
+    .gallary-img{
+        width: 100%;
+    }
+    .gallary-img2{
+        width: 100%;
+    }
+    .gallary-img3{
+        width: 100%;
+    }
+    .gallary-img4{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .video-capt{
+        color: white;
+    }
+    .hr3{
+        width: 205px;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+  }

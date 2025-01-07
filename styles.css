@@ -1,1 +1,92 @@
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Section */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  #header-img {
+    height: 50px;
+  }
+  
+  #nav-bar {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  /* Video Section */
+  #video-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #eee;
+  }
+  
+  #video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Form Section */
+  #form-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  #form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    max-width: 300px;
+  }
+  
+  /* Flexbox Usage */
+  #features, #video-section, #form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Media Query */
+  @media (max-width: 600px) {
+    #nav-bar {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      margin: 10px 0;
+    }
+  }
+  

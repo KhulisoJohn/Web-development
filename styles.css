@@ -1,1 +1,69 @@
 
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  #navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Welcome Section */
+  #welcome-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 2em;
+    background-color: #eee;
+  }
+  
+  .project-tile {
+    margin: 1em 0;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2em;
+    text-align: center;
+  }
+  
+  /* Media Query */
+  @media (max-width: 600px) {
+    #navbar ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

@@ -26,7 +26,30 @@ body {
   }
   
   #header-img {
-    height: 50px;
+    border-radius: 50%;
+  }
+
+  .title {
+    padding-left: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  #nav-bar{
+    display: flex;
+    padding-right: 2rem;
+  }
+  .nav-list{
+    display: flex;
+    list-style: none;
+    padding: 0 2rem;
+  }
+
+  .nav-link {
+    color: white;
+    padding: 0 2rem;
+    text-decoration: none;
   }
   
 

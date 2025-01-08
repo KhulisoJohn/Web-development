@@ -19,25 +19,17 @@ body {
     width: 100%;
     z-index: 1000;
   }
+
+  .logo {
+    display: flex;
+    padding: 0 2px;
+  }
   
   #header-img {
     height: 50px;
   }
   
-  #nav-bar {
-    display: flex;
-  }
-  
-  .nav-link {
-    margin: 0 10px;
-    color: white;
-    text-decoration: none;
-  }
-  
-  .nav-link:hover {
-    text-decoration: underline;
-  }
-  
+
   /* Features Section */
   #features {
     padding: 100px 20px;

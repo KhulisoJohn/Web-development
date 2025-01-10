@@ -20,6 +20,7 @@ body {
     z-index: 1000;
   }
 
+
   .logo {
     display: flex;
     padding: 0 2px;
@@ -52,15 +53,13 @@ body {
     text-decoration: none;
   }
   
-  #combine {
-    background-color: red;
-  
-  }
+
 
   /*home section */
   #home {
     background-image: url('./assets/bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Add dimming layer */;
     padding-top: 150px;
+    padding-bottom: 8rem;
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
@@ -87,52 +86,53 @@ body {
 
    #form {
     padding-top: 2rem;
+    text-align: center;
    }
 
    
-  
-  /* Video Section */
-  #video-section {
+  #Features {
+    padding: 10rem 4rem;
+    text-align: center;
+
+  }
+
+  #feature_cont {
+    background-color: bisque;
+    border: solod 1px bisque;
+    border-radius: 1rem;
+  }
+
+  .text_section {
+    padding-top: 2rem;
+  }
+
+  .video_section {
     padding: 50px 20px;
     text-align: center;
-    background-color: #eee;
+    margin: 2rem auto;
   }
   
-  #video {
+  .video {
     max-width: 100%;
     height: auto;
   }
-  
-  /* Form Section */
-  #form-section {
-    padding: 50px 20px;
-    text-align: center;
-    background-color: #f4f4f4;
-  }
-  
-  #form input {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 80%;
-    max-width: 300px;
-  }
-  
-  /* Flexbox Usage */
-  #features, #video-section, #form-section {
+
+  /*================= COLLECTIONS SECTION ================= */
+
+  #collection {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    background-color: bisque;
+    padding: 3rem ;
+  }
+
+  .item {
+    border: solid 1px;
+    margin: 0 1rem;
+    width: 24%;
+    text-align: center;
+    border-radius: 1rem;
   }
   
-  /* Media Query */
-  @media (max-width: 600px) {
-    #nav-bar {
-      flex-direction: column;
-    }
-  
-    .nav-link {
-      margin: 10px 0;
-    }
-  }
+
   

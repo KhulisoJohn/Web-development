@@ -52,13 +52,44 @@ body {
     text-decoration: none;
   }
   
-
-  /* Features Section */
-  #features {
-    padding: 100px 20px;
-    text-align: center;
-    background-color: #f4f4f4;
+  #combine {
+    background-color: red;
+  
   }
+
+  /*home section */
+  #home {
+    background-image: url('./assets/bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Add dimming layer */;
+    padding-top: 150px;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    width: 100%; 
+    background-blend-mode: darken; 
+    color: #f4f4f4;
+    align-items: center;
+  }
+
+  .subtitle {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 3rem;
+    color: white;
+    font-size: 3rem;
+    
+  }
+
+  #home p {
+    text-align: center;
+    margin: 2rem 5rem;
+    color: #f4f4f4;
+  }
+
+   #form {
+    padding-top: 2rem;
+   }
+
+   
   
   /* Video Section */
   #video-section {

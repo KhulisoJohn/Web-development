@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Web Development Practice Projects
 
 This repository contains a collection of five web development projects built using **HTML**, **CSS**, and **JavaScript** as part of the TechBridle Solution Cohort syllabus (Module 1). These projects serve as hands-on practice to enhance foundational web development skills.
@@ -68,3 +69,6 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ---
 
 Happy coding! 🚀
+=======
+#venda
+>>>>>>> landing-page

@@ -1,12 +1,14 @@
 
-/* General Styles */
+/* =============================GENERAL STYLING============================ */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* Header Section */
+  /* =======================HEADER SECTION================================ */
+
   #header {
     display: flex;
     justify-content: space-between;
@@ -55,7 +57,8 @@ body {
   
 
 
-  /*home section */
+  /*===================HOME SECTION======================== */
+
   #home {
     background-image: url('./assets/bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); /* Add dimming layer */;
     padding-top: 150px;
@@ -89,6 +92,7 @@ body {
     text-align: center;
    }
 
+   /*======================FEATURES SECTION===========================*/
    
   #Features {
     padding: 10rem 4rem;
@@ -123,7 +127,7 @@ body {
     display: flex;
     flex-direction: row;
     background-color: bisque;
-    padding: 3rem ;
+    padding: 2rem 0 2rem 0;
   }
 
   .item {
@@ -132,6 +136,10 @@ body {
     width: 24%;
     text-align: center;
     border-radius: 1rem;
+  }
+
+  #contact {
+    padding: 5rem 0 2rem 0;
   }
   
 

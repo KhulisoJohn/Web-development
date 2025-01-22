@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root, :root.dark {
+    --color-fg: #f8f8f8;
+    --button-bg: #001f3f;
+}
+
+:root.light {
+    --color-fg:var(--button-bg);
+    --button-bg:var(--color-fg);
+}
+
+body{
+    background-color: var(--button-bg);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.darkMode {
+   
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.darkMode .dark ,
+.darkMode .light {
+    font-size: 2rem;
+    color: var(--color-fg);
+    text-align: center;
+ }
+
+ .container {
+    border-radius: 15px;
+    border: 1px splid red;
+    max-width: 700px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    overflow: hidden;
+ }
+
+ .container #display {
+    margin: 30px;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: left;
+    border: solid 1px (--color-fg);
+    border-radius: 3%;
+ }
+
+ #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    padding: 20px;
+ }
+
+ #buttons > button {
+    height: 80px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: var(--color-fg);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+ }
+
+ #buttons > button :active {
+    background-color: #d9d9d9;
+ }
+
+ #buttons > .equal {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color:cadetblue;
+ }
+

@@ -5,11 +5,11 @@ This repository contains a collection of five web development projects built usi
 
 ## Projects Overview
 
-### 1. Technical Documentation Page
-A responsive technical documentation page designed to simulate a real-world documentation layout. It includes:
+### 1. The Calculator
+A responsive basic user-friendly web-based calculator designed to perfom basic arithmetic operations:
 - Semantic HTML structure
 - CSS styling for navigation and content sections
-- JavaScript for dynamic features (e.g., collapsible sections, smooth scrolling)
+- JavaScript for dynamic features (e.g., arithmetic operation and theme toggle)
 
 ### 2. Landing Page
 A modern landing page showcasing:

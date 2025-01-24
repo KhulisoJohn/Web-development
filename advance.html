@@ -24,6 +24,42 @@
         
     </div>
 
+    <div class="container">
+        <input id="display" readonly />
+        <div id="buttons">
+            <!----------------------- ADVANCE CALCULATOR ---------------->
+            <button class="advanced" onclick="appendValue('Math.sin(')">sin</button>
+            <button class="advanced" onclick="appendValue('Math.cos(')">cos</button>
+            <button class="advanced" onclick="appendValue('Math.tan(')">tan</button>
+            <button class="advanced" onclick="appendValue('Math.log(')">log</button>
+            <button class="advanced" onclick="appendValue('Math.sin(')">&radic;</button>
+            <button class="advanced" onclick="appendValue('Math.exp(')">exp</button>
+            <button class="advanced" onclick="appendValue('Math.pow(')">x^y</button>
+            <button class="advanced" onclick="appendValue('Math.PI(')">PI</button>
+            
+            <!--------------------BASIC CALCULATOR------------------------>
+            <button class="operator" id="clear">CLR</button>
+            <button class="operator" id="delete">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equal">=</button>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

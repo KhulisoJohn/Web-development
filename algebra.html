@@ -24,6 +24,29 @@
         
     </div>
 
+    <div class="container">
+        <h3>Enter Coefficients:</h3>
+        <label>Coefficient a: <input type="number" id="a" required></label>
+        <label>Coefficient b: <input type="number" id="b" required></label>
+        <label>Coefficient c: <input type="number" id="c" required></label>
+        <label>Coefficient d (for cubic): <input type="number" id="d" value="0"></label>
+        <hr>
+
+        <h3>Select Action</h3>
+        <div class="operation">
+            <select id="action">
+                <option value="solveLinear">Solve for x (Linear)</option>
+                <option value="solveQuadratic">Solve for x (Quadratic)</option>
+                <option value="solveCubic">Solve for x (Cubic)</option>
+                <option value="solveXYLinear">Solve for x and y (Linear)</option>
+                <option value="solveXYQuadLinear">Solve for x and y (Quadratic & Linear)</option>
+                <option value="factorize">Factorize</option>
+            </select>
+            <button class="toggle-button" onclick="calculate()">Calculate</button>
+        </div>
+        <div class="results" id="result"></div>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>

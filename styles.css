@@ -94,13 +94,13 @@ body {
 
    /*======================FEATURES SECTION===========================*/
    
-  #Features {
+  #Features, #contact {
     padding: 10rem 4rem;
     text-align: center;
 
   }
 
-  #feature_cont {
+  #feature_cont,.contact-content {
     background-color: bisque;
     border: solod 1px bisque;
     border-radius: 1rem;
@@ -138,9 +138,9 @@ body {
     border-radius: 1rem;
   }
 
-  #contact {
-    padding: 5rem 0 2rem 0;
-  }
+#contact {
+  margin: 3rem;
+}
   
 
   

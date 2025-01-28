@@ -29,6 +29,32 @@
           <li><a href="#contact" class="nav-link">Contact</a></li>
         </ui>
       </nav>
+
+      <div class="mobile-menu">
+        <span class="open-menu">
+          <i class='bx bx-menu'></i>
+        </span>
+        <span class="close menu">
+          <i class='bx bx-x'></i>
+        </span>
+
+        <nav>
+          <ul>
+            <li>
+            <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#features">Features</a>
+            </li>
+            <li>
+              <a href="#collection">Collection</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main id="home">
@@ -148,23 +174,33 @@
       <section id="contact">
         <div class="contact-content">
           <p>Fill out the form below to connect with us! Whether you have questions, 
-            need assistance, or want to share your thoughts, we’re here to help.
-             Your feedback and inquiries are always valued</p>
+            need assistance, or want to share your thoughts</p>
   
-          <form  action="/submit-form" method="post">
-  
-            <label for="name">Name: </label><br>
+          <form class="contact-form" action="/submit-form" method="post">
+            <div class="form-input">
+              <label for="name">Name: </label><br>
             <input type="text" id="name" maxlength="15" minlength="2" placeholder="Your  Name" name="name" required >
-            <br><br>
-            <label for="email">Email Address: </label><br>
+            </div>
+            
+            <div class="form-input">
+              <label for="email">Email Address: </label><br>
             <input type="email"  placeholder="example@domain.com" name="email" id="email" required>
-            <br><br>
-            <label for="subject">Subject: </label><br>
-            <input type="text" id="subject" maxlength="12" minlength="2" placeholder="subject" name="subject" required>
-            <br><br>
-            <label for="messege">Messege</label><br>
-            <textarea id="messege" rows="5" placeholder="Enter your messege"></textarea>
-            <button class="submit">Submit</button>
+            </div>
+            
+            <div class="form-input">
+              <label for="subject">Subject: </label><br>
+              <input type="text" id="subject" maxlength="12" minlength="2" placeholder="subject" name="subject" required>
+            </div>
+           
+            <div class="form-input">
+              <label for="messege">Messege</label><br>
+              <textarea id="messege" rows="5" placeholder="Enter your messege"></textarea>
+              <br>
+              <button class="submit">Submit</button>
+            </div>
+           
+           <br>
+            
             </form>
 
         </div>

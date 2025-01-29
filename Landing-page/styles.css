@@ -57,6 +57,7 @@ body {
 
   .mobile-menu{
     display: none;
+
   }
   
 
@@ -209,7 +210,7 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   .mobile-menu {
     display: block;
   }
@@ -217,5 +218,42 @@ a {
   #nav-bar {
     display: none;
   }
+
+  .open-menu {
+    cursor: pointer;
+    font-size: 3rem;
+    color: white;
+    margin-right: 25px;
+}
+
+.nav-links{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+  padding: 16rem 0;
+
+  transition: left 0.3s ease-in-out;
+  z-index: -1000;
+}
+
+.nav-links ul {
+  list-style: none;
+  text-align:center;
+}
+
+.nav-links li {
+ padding: 1.2rem 0;
+  
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 23px;
+  display: block;
+}
 }
   

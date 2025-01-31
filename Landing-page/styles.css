@@ -59,7 +59,9 @@ body {
     display: none;
 
   }
-  
+
+    
+
 
 
   /*===================HOME SECTION======================== */
@@ -224,6 +226,7 @@ a {
     font-size: 3rem;
     color: white;
     margin-right: 25px;
+   
 }
 
 .nav-links{
@@ -234,7 +237,7 @@ a {
   width: 100%;
   background-color: #333;
   padding: 16rem 0;
-
+  display: none;
   transition: left 0.3s ease-in-out;
   z-index: -1000;
 }
@@ -255,5 +258,10 @@ a {
   font-size: 23px;
   display: block;
 }
+
+
+
+
+
 }
   

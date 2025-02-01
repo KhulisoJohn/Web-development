@@ -170,6 +170,7 @@ span i{
 
   .text_section {
     padding-top: 2rem;
+    text-align: center;
   }
 
   .video_section {
@@ -201,13 +202,18 @@ span i{
     max-width: calc(25% - 20px);
     text-align: center;
     border-radius: 2%;
-    height:50rem;
+    height:35rem;
     background-color: aliceblue;
+    transition: transform 0.3s ease;
+  }
+
+  .items:hover {
+    transform: scale(1.2);
   }
 
   .items img {
     width: 90%;
-    height: 60%;
+    height: 80%;
     border-radius: 2%;
   }
 
@@ -315,10 +321,14 @@ a {
   flex: 1 1 calc(25% - 20px);
   max-width: calc(25% - 20px);
   background: #fff;
- 
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: scale(1.2);
 }
 
 .item img {

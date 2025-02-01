@@ -3,56 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>male</title>
+    <title>children</title>
     <meta name="author" content="Khulysojohn">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="../styles.css">
   <link rel="preconnect" href="https://font.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://unplg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 <body>
     
   <header id="header">
     <div class="logo">
       <img src="../assets/img2.jpg" id="header-img" alt="original trombones" width="70px" height="70px" style="margin-left: 20px;" >
-    <h3 class="title">Nwenda Clothing</h3>
+      <h3 class="title">Nwenda Clothing</h3>
     </div>
-    
+
     <nav id="nav-bar">
       <ui class="nav-list">
         <li><a href="../index.html#home" class="nav-link">Home</a></li>
-        <li><a href="../index.html#Features" class="nav-link">Features</a></li>
+        <li><a href="../index.html#features" class="nav-link">Features</a></li>
         <li><a href="../index.html#collection" class="nav-link">Collection</a></li>
         <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
       </ui>
     </nav>
-    <div class="mobile menu">
-      <span>
-        <i class='bx bx-menu'></i>
+
+    <nav class="mobile-menu">
+
+      <div class="open-close">
+        <span class="open-menu">
+          <i class='bx bx-menu' ></i>
       </span>
-      <span>
+      <span class="close-menu">
         <i class='bx bx-x'></i>
       </span>
+      </div>
 
-      <nav>
-        <ul>
-          <li>
-          <a href="#home">Home</a>
-          </li>
-          <li>
-            <a href="#features">Features</a>
-          </li>
-          <li>
-            <a href="#collection">Collection</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+      <ul class="nav-links">
+        <li><a href="../index.html#home">Home</a></li>
+        <li><a href="../index.html#features">Features</a></li>
+        <li><a href="../index.html#collection">Colectionss</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
+
+  <main class="container">
+    <h1>Product Catalogue</h1>
+    <div class="grid">  <!-- Fixed the missing closing angle bracket -->
+        <div class="item">
+            <img src="../assets/col-1/img1.png" alt="Item 1">
+            <h2>Item 1</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img3.jpg" alt="Item 2">
+            <h2>Item 2</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img3.jpg" alt="Item 3">
+            <h2>Item 3</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img4.png" alt="Item 4">
+            <h2>Item 4</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img5.png" alt="Item 5">
+            <h2>Item 5</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img6.jpeg" alt="Item 6">
+            <h2>Item 6</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img7.jpg" alt="Item 7">
+            <h2>Item 7</h2>
+        </div>
+        <div class="item">
+            <img src="../assets/col-1/img8.png" alt="Item 8">
+            <h2>Item 8</h2>
+        </div>
+    </div> <!-- Closed the grid div properly -->
+</main>
+
+
 
   <footer class="footer">
     <div class="social">
@@ -81,6 +116,7 @@
 
     </div>
   </footer>
+  <script src="../script.js"></script>
 
 </body>
 </html>

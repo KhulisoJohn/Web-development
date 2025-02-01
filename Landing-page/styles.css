@@ -62,6 +62,12 @@ body {
  
 /*========================Breakpoint=========================*/
 
+@media only screen and (max-with: 1000px){
+  .nav-link{
+    padding: 0 1.5rem;
+  }
+}
+
   @media only screen and (max-width: 768px) {
     .mobile-menu {
       display: block;
@@ -298,16 +304,18 @@ a {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive columns */
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  padding: 0; /* Removes unnecessary spacing */
+ padding: 20px;
 }
 
 .item {
+  flex: 1 1 calc(25% - 20px);
+  max-width: calc(25% - 20px);
   background: #fff;
-  padding: 10px;
+ 
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -317,4 +325,20 @@ a {
   width: 100%; /* Ensures images fit inside their container */
   height: auto;
   border-radius: 5px;
+}
+
+/*--------------------BREAKPOINT----------------------*/
+
+@media only screen and (max-width: 1000px){
+   .item {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+   }
+}
+
+@media only screen and (max-width: 768px){
+  .item {
+    flex: 1 1 calc(100% - 20px);
+    max-width: calc(100% - 20px);
+  }
 }

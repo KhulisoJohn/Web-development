@@ -1,62 +1,76 @@
-# Nwenda Clothing Landing Page
+# Web Development Projects Repository
 
-Welcome to Nwenda Clothing! This project is a simple, clean, and modern landing page designed for showcasing Nwenda Clothing's products, features, and collections. The page includes sections like Home, Features, Collection, and Contact.
+Welcome to the **Web Development Projects Repository**! This repository reflects **Module 1 Practice** and showcases three distinct web development projects that demonstrate fundamental and intermediate front-end and back-end skills.
 
-## Live Demo
+## 🚀 Projects Included
 
-You can view the live version of this landing page at:  
-[Nwenda Clothing Landing Page](https://nwendaclothing.netlify.app/)
+### 1. 🌍 Landing Page
+A visually appealing landing page created to practice UI/UX design principles, layout structuring, and responsive design techniques.
 
-## Features
+- **Features:**
+  - Modern design with smooth navigation
+  - Mobile-responsive layout
+  - Optimized for performance
 
-- **Responsive Design:** Although the page is not fully responsive yet, it's designed to work well on most screen sizes.
-- **User-Friendly Navigation:** With sections for Home, Features, Collection, and Contact, users can easily navigate through the site.
-- **Brand Showcase:** Displays the clothing collection and brand features in an attractive layout.
-- **Icons:** Uses [Boxicons](https://boxicons.com/) for sleek and customizable icons throughout the page.
+- **Technologies Used:**
+  - HTML
+  - CSS
+  - JavaScript
 
-## Technologies Used
+### 2. 📱 Calculator
+A simple, functional calculator designed to perform basic arithmetic operations like addition, subtraction, multiplication, and division.
 
-- **HTML5:** For the page structure and content.
-- **CSS3:** For styling and layout.
-- **JavaScript:** For any future functionality enhancements (though it's not heavily used yet).
-- **Boxicons:** A free and easy-to-use set of vector icons integrated into the page.
-- **Netlify:** Hosting the project for easy deployment and access.
+- **Features:**
+  - User-friendly interface
+  - Responsive design
+  - Efficient error handling
 
-## Installation
+- **Technologies Used:**
+  - HTML
+  - CSS
+  - JavaScript
 
-To run this project locally, follow these steps:
+### 3. 🤝 Community Service Website
+A dynamic website built to highlight community services, showcasing web development skills in creating multi-page, content-rich websites.
 
+- **Features:**
+  - Informative pages about community activities
+  - Contact form for user interaction
+  - Responsive design for all devices
+
+- **Technologies Used:**
+  - HTML
+  - CSS
+  - JavaScript
+
+---
+
+## 📂 Project Structure
+```
+web-development-repository/
+├── landing-page/
+├── calculator/
+└── community-service-website/
+```
+
+## 🛠️ How to Run the Projects
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nwenda-clothing.git
+   git clone https://github.com/khulysojohn/web-development-repository.git
    ```
-
-2. Navigate into the project directory:
+2. Navigate to the project folder:
    ```bash
-   cd nwenda-clothing
+   cd project-folder-name
    ```
+3. Open the `index.html` file in your preferred browser.
 
-3. Open `index.html` in your browser:
-   ```bash
-   open index.html
-   ```
+## 🙌 Contributing
+Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
 
-# Usage
+## 📧 Contact
+For any questions or feedback, reach out to **Khuliso John Thavhiwa** at [khulysojohn@gmail.com](mailto:khulysojohn@gmail.com).
 
-You can customize the content, layout, and styling to fit the branding and design needs of Nwenda Clothing. To start editing, modify the HTML and CSS files.
+---
 
-# Future Improvements
-
-- **Responsive Layout:** Implement media queries to ensure the page works well on all devices.
-- **Interactive Features:** Add interactivity using JavaScript or animations.
-- **SEO Optimization:** Add meta tags and improve search engine optimization.
-- **About Section:** Include an "About" section to tell the story of Nwenda Clothing.
-
-# Contributing
-
-If you'd like to contribute to the project, feel free to fork the repository and submit a pull request with your proposed changes.
-
-# License
-
-This project is open-source and available under the MIT License.
+**"Desire is the starting point of all achievement."** — *Napoleon Hill*
 

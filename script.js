@@ -5,6 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const navLinks = document.querySelector(".nav-links");
     const navItems = document.querySelectorAll(".nav-links a");
 
+    const images = [
+        "https://mapeni.sirv.com/Images/assets/IMG6.webp",
+        "https://mapeni.sirv.com/Images/assets/bg2.jpg",
+        "https://mapeni.sirv.com/Images/assets/bg3.png",
+        "https://mapeni.sirv.com/Images/assets/bg4.jpg"
+      ];
+
     openMenu.addEventListener("click", function () {
         navLinks.style.display = "block";
         openMenu.style.display = "none";
@@ -27,16 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Hide close button initially
     closeMenu.style.display = "none";
-});
 
-document.addEventListener("DOMContentLoaded", function () {
-    const images = [
-      "https://mapeni.sirv.com/Images/assets/IMG6.webp",
-      "https://mapeni.sirv.com/Images/assets/bg2.jpg",
-      "https://mapeni.sirv.com/Images/assets/bg3.png",
-      "https://mapeni.sirv.com/Images/assets/bg4.jpg"
-    ];
-    
     let currentIndex = 0;
     const homeSection = document.getElementById("home");
   
@@ -47,5 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Change background every 5 seconds
     setInterval(changeBackground, 5000);
-  });
+});
+
+
   

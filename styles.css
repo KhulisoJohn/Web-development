@@ -5,6 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   /* =======================HEADER SECTION================================ */
@@ -60,11 +61,21 @@ body {
 
   }
  
-/*========================Breakpoint=========================*/
+/*---------------------HEADER-Breakpoint-----------------------*/
 
-@media only screen and (max-with: 1000px){
+@media only screen and (max-width: 1000px){
   .nav-link{
-    padding: 0 1.5rem;
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 860px) and (min-width:768px){
+  .nav-link{
+    padding: 0 0.7rem;
+  }
+  .title{
+    font-size: 1.2rem;
+    padding-top:7px;
   }
 }
 
@@ -148,12 +159,18 @@ span i{
     text-align: center;
     margin: 2rem 5rem;
     color: #f4f4f4;
+    font-size: 1.4rem;
   }
 
    #form {
     padding-top: 2rem;
     text-align: center;
+  
    }
+
+   /*----------------------HOME-BREAKPOINT---------------------------------*/
+
+
 
    /*======================FEATURES SECTION===========================*/
    
@@ -186,6 +203,13 @@ span i{
     border-radius: 2%;
   }
 
+
+  /*------------------------FEATURES-BREAKPOIN---------------------*/
+
+
+
+
+
   /*================= COLLECTIONS SECTION ================= */
 
   #collection {
@@ -205,21 +229,24 @@ span i{
     border-radius: 2%;
     height:35rem;
     background-color: aliceblue;
-    transition: transform 0.3s ease;
+   
   }
 
-  .items:hover {
-    transform: scale(1.2);
-  }
 
   .items img {
     width: 90%;
     height: 80%;
     border-radius: 2%;
+    transition: transform 0.3s ease;
   }
 
 
-  /*=================================BREAKPOINT=================================================*/
+  .items img:hover {
+    transform: scale(1.2);
+  }
+
+
+  /*---------------------------C0LLECTION-BREAKPOINT-----------------------------*/
   @media only screen and (max-width: 1100px){
     .items {
       flex: 1 1 calc(50% - 20px);
@@ -275,6 +302,8 @@ span i{
   cursor: pointer;
   margin: 10px 0;
 }
+
+/*----------------------------------------CONTACT-BREAKPOINT--------------------------------------*/
  
 
 /*====================================== FOOTER STYLING ==========================================*/
@@ -301,6 +330,15 @@ a {
   text-decoration: none;
 }
 
+/*---------------------------------FOOTER-BREAKPOINT------------------------*/
+@media only screen and (max-width: 600px){
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+
 
 /*=============================CATALOGUE===============================*/
 .container {
@@ -315,22 +353,19 @@ a {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
- padding: 20px;
+  padding: 20px;
 }
 
 .item {
   flex: 1 1 calc(25% - 20px);
   max-width: calc(25% - 20px);
+  height: auto;
   background: #fff;
   text-align: center;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 }
 
-.item:hover {
-  transform: scale(1.2);
-}
 
 .item img {
   width: 100%; /* Ensures images fit inside their container */
@@ -338,7 +373,7 @@ a {
   border-radius: 5px;
 }
 
-/*--------------------BREAKPOINT----------------------*/
+/*--------------------CATALOGUE-BREAKPOINT----------------------*/
 
 @media only screen and (max-width: 1000px){
    .item {

@@ -1,6 +1,6 @@
 # Web Development Projects Repository
 
-Welcome to the **Web Development Projects Repository**! This repository reflects **Module 1 Practice** and showcases three distinct web development projects that demonstrate fundamental and intermediate front-end and back-end skills.
+Welcome to the **Web Development Projects Repository**! This repository reflects **Module 1 Practice** and showcases three distinct web development projects that demonstrate fundamental and intermediate front-end  skills.
 
 ## 🚀 Projects Included
 
